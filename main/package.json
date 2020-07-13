@@ -22,9 +22,11 @@
   "license": "MIT",
   "dependencies": {
     "@jswf/manager": "^1.0.3",
-    "react": "~16.13.1",
     "resize-observer-polyfill": "~1.5.1",
     "styled-components": "~5.1.1"
+  },
+  "peerDependencies": {
+    "react": "~16.13.1"
   },
   "devDependencies": {
     "@types/styled-components": "~5.1.0",
